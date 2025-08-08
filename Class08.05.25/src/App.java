@@ -1,6 +1,13 @@
+import java.math.BigDecimal;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        int number = 42; // Example variable
+        BigDecimal decimalValue = new BigDecimal("3.14"); // Example BigDecimal
+        System.out.println(number + " is the answer to life, the universe, and everything.");
+        System.out.println("The value of Pi is approximately: " + decimalValue);
+        System.out.println(decimalValue + " can also be a monetary value.");
+        // bug fixed: Corrected the output message to include BigDecimal
         //comment: This is a simple Java application that prints a message to the console.
         // You can run this application using the command: java App
     }
