@@ -15,5 +15,6 @@ public class App {
         // This is a new line added to the main method.
         // alteration to the main method made in the new branch
         System.out.println("alteracao completa");
+        System.out.println("BugResolvidoPeloMurilo");
     }
 }
